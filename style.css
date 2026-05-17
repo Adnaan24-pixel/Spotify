@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fa-spotify {
+    font-size: 35px;
+    padding-left: 25px;
+    color: white;
+}
+
+.home {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-left: 38px;
+}
+
+.fa-house {
+    color: white;
+}
+
+.search {
+    display: flex;
+    height: 45px;
+    width: 470px;
+    background-color: #1f1f1f;
+    border-radius: 40px;
+}
+
+.search-icon {
+    height: 45px;
+    width: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 24px;
+    padding-left: 10px;
+    background-color: #1f1f1f;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+input {
+    border: none;
+    background: transparent;
+    padding-left: 10px;
+    outline: none;
+    color: #b3b3b3;
+    font-size: 18px;
+    width: 100%;
+}
+
+.tab-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    font-size: 20px;
+    color: #b3b3b3;
+    padding-right: 20px;
+}
+
+.tab-icon p {
+    color: #575555;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.space {
+    padding-left: 400px;
+}
+
+.side-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+.side-nav button {
+    color: #b3b3b3;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.side-nav div {
+    display: flex;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.install {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.side-nav .log {
+    padding-right: 10px;
+} 
+
+
+.side-nav .log button {
+    background-color: white;
+    height: 48px;
+    width: 110px;
+    border-radius: 40px;
+    color: black;
+}
+
+.side-panel {
+    background-color: #6b6a6a1c;
+    height: 100vh;
+    width: 280px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.side-panel .lib {
+    padding: 30px 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-weight: bold;
+}
+
+.side-panel .add-icon {
+    font-size: 25px;
+    height: 35px;
+    width: 35px;
+    font-weight: lighter;
+    background-color: #b3b3b32c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b3b3b3;
+    margin-top: -10px;
+    margin-right: -20px;
+}
